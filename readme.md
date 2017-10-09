@@ -2,6 +2,7 @@
 
 [![Build Status](https://api.travis-ci.org/lucasvscn/cruftflake.png)](https://travis-ci.org/lucasvscn/cruftflake)
 [![ProjectStatus](http://stillmaintained.com/lucasvscn/cruftflake.png)](http://stillmaintained.com/lucasvscn/cruftflake)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fcruftflake.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fcruftflake?ref=badge_shield)
 
 A stab at a version of [Twitter Snowflake](https://github.com/twitter/snowflake)
 but in PHP with a simple ZeroMQ interface (rather than Thrift).
@@ -58,3 +59,7 @@ Or to specify a manually configured machine ID:
 2. A client that will generate N IDs and dump to STDOUT
 
     ./examples/client.php -n 100
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fcruftflake.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fcruftflake?ref=badge_large)
